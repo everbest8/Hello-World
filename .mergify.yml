@@ -1,3 +1,1 @@
 pull_request_rules: [{"name": "mgf-lab noop", "conditions": ["label=mgf-never-applied"], "actions": {"comment": {"message": "mgf-lab noop"}}}]
-commands_restrictions: {"rebase": {"conditions": ["from-fork"]}}
-extends: mgf-lab-control
